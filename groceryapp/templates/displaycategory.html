@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<center>
+		<form action="/addproduct/" method="GET">
+			<h1>Add Item </h1>
+			Item Name: <input type="text" name="name"> <br><br>
+			Item Price : <input type="text" name="price"> <br><br>
+			Weight : <input type="" name="weight"> <br><br>
+			WeightUnit : <input type="text" name="weightunit"> <br><br>
+			desription : <input type="text" name="desription"> <br><br>
+			<input type="text" name="did" value="{{Data.id}}" ><br><br>
+			<button>Submits</button>
+		</form>
+	</center>
+
+</body>
+</html>
